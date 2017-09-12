@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2c45698a6c8a919d52cb4002f4b123ab",
+    "content-hash": "d2d5ea99fe723034f1fcc14caf629cde",
     "packages": [
         {
             "name": "composer/installers",
@@ -361,7 +361,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.11.zip",
-                "reference": null,
+                "reference": "tags/4.4.11",
                 "shasum": null
             },
             "require": {
@@ -389,6 +389,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/pantheon-advanced-page-cache/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "5.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/5.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.5.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
         },
         {
             "name": "wpackagist-plugin/wp-native-php-sessions",
@@ -1734,7 +1754,7 @@
                 "extension",
                 "wordpress"
             ],
-            "time": "2017-07-20T15:08:46+00:00"
+            "time": "2017-07-20 15:08:46"
         },
         {
             "name": "phar-io/manifest",
@@ -4326,7 +4346,7 @@
                 "standards",
                 "wordpress"
             ],
-            "time": "2017-08-05T16:08:58+00:00"
+            "time": "2017-08-05 16:08:58"
         },
         {
             "name": "zendframework/zend-code",
