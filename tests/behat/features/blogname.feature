@@ -5,7 +5,7 @@ Feature: Change blogname and blogdescription (no-js)
 
   Background:
     Given I am logged in as an admin
-    Given I am on the Dashboard
+    And I am on "/wp-admin/"
 
 
   Scenario: Saving blogname
