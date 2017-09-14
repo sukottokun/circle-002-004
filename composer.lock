@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d2d5ea99fe723034f1fcc14caf629cde",
+    "content-hash": "2153dd1888cc19cdeadd5bff4ebc8c6e",
     "packages": [
         {
             "name": "composer/installers",
@@ -401,7 +401,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wordpress-seo.5.4.zip",
-                "reference": null,
+                "reference": "tags/5.4",
                 "shasum": null
             },
             "require": {
@@ -429,6 +429,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-native-php-sessions/"
+        },
+        {
+            "name": "wpackagist-plugin/wpforms-lite",
+            "version": "1.4.0.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wpforms-lite/",
+                "reference": "tags/1.4.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wpforms-lite.1.4.0.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wpforms-lite/"
         },
         {
             "name": "wpackagist-theme/twentyseventeen",
@@ -1754,7 +1774,7 @@
                 "extension",
                 "wordpress"
             ],
-            "time": "2017-07-20 15:08:46"
+            "time": "2017-07-20T15:08:46+00:00"
         },
         {
             "name": "phar-io/manifest",
